@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def find_needle_in_haystack(haystack, needle):
     """
     Find some subsequence in a longer sequence and return the first index at which the subsequence was completely
