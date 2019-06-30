@@ -33,12 +33,7 @@ def find_arg_max(start, end, epsilon):
 
         middle = (0.5 * (end + start))
 
-    left = func(start)
-    right = func(end)
-    if left < right:
-        return end
-    else:
-        return start
+    return middle
 
 
 if __name__ == "__main__":
